@@ -1,5 +1,7 @@
 # etl-mal-airflow
-ETL Pipeline to extract data from myanimelist.net
+ETL Pipeline to extract data from ![myanimelist.net](https://myanimelist.net/topmanga.php)
+
+![schema_pipeline](./etl_mal_schema.png)
 
 
 ### Architecture des séries
@@ -9,7 +11,7 @@ ETL Pipeline to extract data from myanimelist.net
   Rank: int,
   Title: str,
   URL: str,
-  ALternative titles: Object,
+  Alternative titles: Object,
   Information: Object,
   Statistics: Object,
   Characters: Array
